@@ -283,7 +283,6 @@ useEffect(() => {
           {  walletAddress && renderConnectedContainer() }
         </div>
         <div className="footer-container">
-          <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
           <a
             className="footer-text"
             href={GIT_LINK}
