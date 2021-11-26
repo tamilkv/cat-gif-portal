@@ -16,8 +16,8 @@ const TEST_GIFS = [
  'https://media.giphy.com/media/6VoDJzfRjJNbG/giphy.gif',
  'https://media.giphy.com/media/OmK8lulOMQ9XO/giphy.gif',
 ]
-const TWITTER_HANDLE = '_buildspace';
-const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
+const GIT_HANDLE = 'tamilkv';
+const GIT_LINK = `https://github.com/${GIT_HANDLE}`;
 
 const { SystemProgram, Keypair } = web3;
 
@@ -286,10 +286,10 @@ useEffect(() => {
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
           <a
             className="footer-text"
-            href={TWITTER_LINK}
+            href={GIT_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`built on @${TWITTER_HANDLE}`}</a>
+          >{`built by @${GIT_HANDLE}`}</a>
         </div>
       </div>
       </div>
